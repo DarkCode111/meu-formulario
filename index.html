@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>
+        Meu Formulario
+    </h1>
+    
+    <form method="Get" action="index.html">
+        <h2>Cadrasta-se</h2>
+        
+    <input type="text" name="nome" id="nome" placeholder="Nome">
+    
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+        <br>
+
+    <input type="text" name="email" id="email" placeholder="Email ou Celular">
+
+    <input type="password" name="senha" id="senha" placeholder="Nova senha">
+        
+    <br><br>
+        <label for="data-de-nacimento">
+            Data de Nacimento
+        </label><br>
+    <select name="dia" id="dia">
+        <option value="dia-5">5</option>
+        <option value="dia-4">4</option>
+        <option value="dia-3">3</option>
+        <option value="dia-2">2</option>
+        <option value="dia-1">1</option>
+    </select>
+
+    <select name="mes" id="mes">
+        <option value="maio">Mai</option>
+        <option value="abril">Abr</option>
+        <option value="marco">Mar</option>
+        <option value="fevereiro">Fev</option>
+        <option value="janeiro">Jan</option>
+    </select>
+
+    <select name="ano" id="ano">
+        <option value="2005">2005</option>
+        <option value="2004">2004</option>
+        <option value="2003">2003</option>
+        <option value="2002">2002</option>
+        <option value="2001">2001</option>
+    </select>
+    
+    <br><br>
+
+    <label for="genero-feminino">Feminino</label>
+    <input type="radio" name="genero" id="genero">
+
+    <label for="genero-masculino">Masculino</label>
+    <input type="radio" name="genero" id="genero">
+
+    <label for="genero-personalizado">Personalizado</label>
+    <input type="radio" name="genero" id="genero">
+    
+    <br><br>
+    
+    
+    <input type="submit" value="Cadrasta-se">
+    </form>
+
+</body>
+</html>
